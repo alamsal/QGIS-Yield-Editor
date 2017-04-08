@@ -215,6 +215,19 @@
     <string>0</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="btnRefresh">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>180</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Refresh</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
