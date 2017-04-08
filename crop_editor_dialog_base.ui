@@ -97,7 +97,7 @@
   <widget class="QLabel" name="lblValue">
    <property name="geometry">
     <rect>
-     <x>140</x>
+     <x>60</x>
      <y>80</y>
      <width>55</width>
      <height>16</height>
@@ -110,7 +110,7 @@
   <widget class="QLabel" name="lblShow">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>250</x>
      <y>80</y>
      <width>55</width>
      <height>16</height>
@@ -123,7 +123,7 @@
   <widget class="QLabel" name="lblDeleted">
    <property name="geometry">
     <rect>
-     <x>470</x>
+     <x>440</x>
      <y>80</y>
      <width>55</width>
      <height>16</height>
@@ -131,6 +131,104 @@
    </property>
    <property name="text">
     <string>Deleted</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkFlowDelay">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="chkMoistureDelay">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>16</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radFlowDelay">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>100</y>
+     <width>95</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Flow Delay</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radMoistureDelay">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>130</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Moisture Delay</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtFlowDelay">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="txtMoistureDelay">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDelFlowDelay">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>100</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblDelMoistureDelay">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>120</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
    </property>
   </widget>
  </widget>
